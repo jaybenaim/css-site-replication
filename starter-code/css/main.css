@@ -8,21 +8,21 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
   display: flex; 
-  justify-content: center;  
-  
+  justify-content: center; 
+  font-family: helvetica, arial, sans-serif;  
 }
 .page { 
   width: 100%; 
-  margin-right: -100px; 
+  margin-right: -100px;  
 }
 header { 
-  background: #1c5380;  
+  background: #3a698f;  
   padding: 100px; 
   z-index: -1;
   margin-left: -60px; 
 }
 .logo { 
-  margin-left: 430px; 
+  margin-left: 500px; 
 }
 .phones {
   position: relative; 
@@ -32,28 +32,35 @@ header {
   margin-left: 100px; 
 }
 .main { 
-  background: #eee; 
+  /* trying to create the faded border */ 
+  background: linear-gradient(0deg, #fff, 200px,  #eee); 
   width: 400px; 
   position: relative; 
   left: 540px; 
   top: -600px; 
   box-shadow: 0 30px 40px rgba(0,0,0,.1);
-  border-radius: 6px 6px 0 0; 
+  border-radius: 6px; 
    
 }
 h1 { 
   margin: 40px; 
   padding-top: 20px; 
   color: #06365f; 
+  font-size: 26px; 
+  margin-bottom: 20px; 
 }
-.main p { 
-  margin: 40px; 
+.main > p { 
+  margin-top: 0px;
+  margin-bottom: 10px;
+  margin-left: 40px;     
+}
+p:nth-child(4) { 
+  margin-bottom: 40px; 
 }
 .bottom-images {
   margin-left: 40px; 
 }
 footer { 
-   
   color: #25649b; 
   font-weight: 900; 
   padding-bottom: 50px;
