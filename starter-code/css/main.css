@@ -23,9 +23,8 @@ header {
 }
 .logo { 
   margin-left: 500px; 
-  max-width: 440px;
+  max-width: 470px;
   padding: 10px;  
-
 }
 .login { 
   float: right;  
@@ -35,16 +34,19 @@ header {
   height: 40px; 
   width: 100px; 
   padding: 5px;
-  box-shadow: 1px 1px #06365f;
+  box-shadow: 1px 1px  1px 1px #06365f;
   color: white; 
   font-weight: 600; 
   letter-spacing: 1px; 
   position: static; 
   z-index: 2; 
+  margin-left: 40px; 
 }
 .login:hover {
-  box-shadow: 0 0 #06365f; 
+  box-shadow: 0 0 ; 
+  background: rgba(6, 54, 95, 0.3); 
   cursor: pointer; 
+
 }
 .login i { 
   margin: 10px; 
@@ -63,7 +65,6 @@ header {
   margin: 0 auto; 
   margin-left: 100px; 
   width: 10%; 
-
 }
 .main { 
   background: linear-gradient(0deg, #fff, 250px,  #eee); 
@@ -72,7 +73,6 @@ header {
   left: 540px; 
   top: -600px; 
   border-radius: 6px; 
-   
 }
 h1 { 
   margin: 40px; 
